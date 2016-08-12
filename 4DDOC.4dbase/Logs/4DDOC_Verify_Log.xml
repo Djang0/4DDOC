@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<verifylog operation="Verify" name="4DDOC" structure="Macintosh HD:Users:Ludovicreenaers:Documents:scripts:4DDOC:4DDOC.4dbase:4DDOC.4DB" data="" os="Mac OS X (10.11.5)">
+<start_timer time="2016-08-08T14:45:00+02:00"/>
+<step title="Ouverture de la base en mode maintenance">
+</step>
+<step title="Vérification de l&apos;intégrité de la structure">
+	<step title="Vérification de la table des bits du segment 1">
+	</step>
+	<step title="Vérification de la table des bits du segment 65">
+	</step>
+	<step title="Vérification des définitions de la numérotation automatique">
+	</step>
+	<step title="Vérification de la chaîne de définition de numérotation automatique supprimée">
+	</step>
+	<step title="Vérification des définitions de tables des données">
+	</step>
+	<step title="Vérification de la chaîne de définitions de tables supprimées">
+	</step>
+	<step title="Vérification des définitions d’index">
+	</step>
+	<step title="Vérification de la chaîne de définitions d’index supprimés">
+	</step>
+	<step title="Vérification des définitions d’index de sauvegarde">
+	</step>
+	<step title="Vérification de la chaîne de définition d’index de sauvegarde supprimés">
+	</step>
+	<step title="Chargement des tables de données">
+		<step title="Vérification des entêtes de la table des données">
+		</step>
+		<step title="Vérification de la chaîne des entêtes de la table des données supprimées">
+		</step>
+	</step>
+	<step title="Vérification des BLOBs dans la table Resources">
+	</step>
+	<step title="Vérification de la liste des BLOBs supprimés dans la table Resources">
+	</step>
+	<step title="Vérification des enregistrements dans la table Resources">
+		<step title="Vérification de la liste des enregistrements supprimés dans la table Resources">
+		</step>
+	</step>
+	<step title="Vérification de la liste des enregistrements supprimés dans la table Resources">
+	</step>
+	<step title="Vérification des BLOBs dans la table [Table#0]">
+	</step>
+	<step title="Vérification de la liste des BLOBs supprimés dans la table [Table#0]">
+	</step>
+	<step title="Vérification des enregistrements dans la table [Table#0]">
+		<step title="Vérification de la liste des enregistrements supprimés dans la table [Table#0]">
+		</step>
+	</step>
+	<step title="Vérification de la liste des enregistrements supprimés dans la table [Table#0]">
+	</step>
+	<step title="Vérification de l&apos;index sur Index B-tree 0 sur kind (TYPE only)">
+		<step title="Vérification des adresses des pages d’index de l&apos;Index B-tree 0 sur kind (TYPE only)">
+		</step>
+		<step title="Vérification des pages d’index de l&apos;Index B-tree 0 sur kind (TYPE only)">
+		</step>
+	</step>
+	<step title="Vérification de l&apos;index sur Index B-tree 1 sur stamp (stamp)">
+		<step title="Vérification des adresses des pages d’index de l&apos;Index B-tree 1 sur stamp (stamp)">
+		</step>
+		<step title="Vérification des pages d’index de l&apos;Index B-tree 1 sur stamp (stamp)">
+		</step>
+	</step>
+	<step title="Vérification de l&apos;index sur Index B-tree 2 sur kind , id (TYPE and ID)">
+		<step title="Vérification des adresses des pages d’index de l&apos;Index B-tree 2 sur kind , id (TYPE and ID)">
+		</step>
+		<step title="Vérification des pages d’index de l&apos;Index B-tree 2 sur kind , id (TYPE and ID)">
+		</step>
+	</step>
+</step>
+<step title="Initialisation des ressources pour l&apos;opération de vérification">
+</step>
+<step title="Vérification des méthodes base">
+</step>
+<step title="Vérification des méthodes triggers">
+</step>
+<step title="Vérification des méthodes projet">
+	<step title="DOC_start">
+		<info>DOC_start : 41 lines</info>
+	</step>
+	<step title="UTIL_openFormSameProcess">
+		<info>UTIL_openFormSameProcess : 19 lines</info>
+	</step>
+	<step title="DOC_extractCommentsFromCode">
+		<info>DOC_extractCommentsFromCode : 34 lines</info>
+	</step>
+	<step title="UTIL_splitString">
+		<info>UTIL_splitString : 49 lines</info>
+	</step>
+	<step title="(tmp)">
+		<info>(tmp) : 1 lines</info>
+	</step>
+	<step title="UTIL_getLineClicked">
+		<info>UTIL_getLineClicked : 14 lines</info>
+	</step>
+	<step title="UTIL_isClickInArray">
+		<info>UTIL_isClickInArray : 23 lines</info>
+	</step>
+	<step title="DOC_getCommentsFromData">
+		<info>DOC_getCommentsFromData : 13 lines</info>
+	</step>
+	<step title="DOC_getDocumentationFromData">
+		<info>DOC_getDocumentationFromData : 13 lines</info>
+	</step>
+	<step title="DOC_loadTodos">
+		<info>DOC_loadTodos : 19 lines</info>
+	</step>
+	<step title="DOC_initForm">
+		<info>DOC_initForm : 70 lines</info>
+	</step>
+	<step title="DOC_loadSummary">
+		<info>DOC_loadSummary : 61 lines</info>
+	</step>
+	<step title="UTIL_getColor">
+		<info>UTIL_getColor : 49 lines</info>
+	</step>
+	<step title="UTIL_getPathInfo">
+		<info>UTIL_getPathInfo : 72 lines</info>
+	</step>
+	<step title="(Compiler_Variables)">
+		<info>(Compiler_Variables) : 14 lines</info>
+	</step>
+	<step title="(Compiler_Arrays)">
+		<info>(Compiler_Arrays) : 16 lines</info>
+	</step>
+	<step title="(Compiler_Methods)">
+		<info>(Compiler_Methods) : 21 lines</info>
+	</step>
+	<step title="DOC_switchTab">
+		<info>DOC_switchTab : 21 lines</info>
+	</step>
+	<step title="DOC_loadFromCode">
+		<info>DOC_loadFromCode : 10 lines</info>
+	</step>
+	<step title="DOC_validateMethod">
+		<info>DOC_validateMethod : 14 lines</info>
+	</step>
+	<step title="DOC_ignoreMethod">
+		<info>DOC_ignoreMethod : 13 lines</info>
+	</step>
+	<step title="DOC_draftMethod">
+		<info>DOC_draftMethod : 10 lines</info>
+	</step>
+	<step title="DOC_useComments">
+		<info>DOC_useComments : 16 lines</info>
+	</step>
+	<step title="DOC_validateAllMethods">
+		<info>DOC_validateAllMethods : 8 lines</info>
+	</step>
+	<step title="DOC_searchForMethodName">
+		<info>DOC_searchForMethodName : 7 lines</info>
+	</step>
+	<step title="DOC_draftAllMethods">
+		<info>DOC_draftAllMethods : 8 lines</info>
+	</step>
+	<step title="DOC_deleteMethod">
+		<info>DOC_deleteMethod : 12 lines</info>
+	</step>
+	<step title="DOC_loadHeaders">
+		<info>DOC_loadHeaders : 22 lines</info>
+	</step>
+	<step title="DOC_selectTodo">
+		<info>DOC_selectTodo : 11 lines</info>
+	</step>
+	<step title="DOC_deleteHeader">
+		<info>DOC_deleteHeader : 15 lines</info>
+	</step>
+	<step title="DOC_addHeader">
+		<info>DOC_addHeader : 29 lines</info>
+	</step>
+	<step title="DOC_selectHeader">
+		<info>DOC_selectHeader : 10 lines</info>
+	</step>
+	<step title="DOC_initSphinxIndex">
+		<info>DOC_initSphinxIndex : 17 lines</info>
+	</step>
+	<step title="DOC_exportToJSON">
+		<info>DOC_exportToJSON : 9 lines</info>
+	</step>
+	<step title="DOC_exportToSphinx">
+		<info>DOC_exportToSphinx : 46 lines</info>
+	</step>
+	<step title="DOC_parseTemplate">
+		<info>DOC_parseTemplate : 10 lines</info>
+	</step>
+	<step title="(tmp_1)">
+		<info>(tmp_1) : 2 lines</info>
+	</step>
+	<info>37 project methods</info>
+</step>
+<step title="Vérification des formulaires projet">
+	<step title="DOC_manage">
+		<step title="DOC_manage">
+			<info>DOC_manage : 4 lines</info>
+		</step>
+		<step title="DOC_manage.Page0.Onglet (rT_tabs)">
+			<info>DOC_manage.Page0.Onglet (rT_tabs) : 6 lines</info>
+		</step>
+		<step title="DOC_manage.Page0.Bouton ()">
+			<info>DOC_manage.Page0.Bouton () : 4 lines</info>
+		</step>
+		<step title="DOC_manage.Page0.Bouton3 ()">
+			<info>DOC_manage.Page0.Bouton3 () : 6 lines</info>
+		</step>
+		<step title="DOC_manage.Page1.List Box">
+			<info>DOC_manage.Page1.List Box : 49 lines</info>
+		</step>
+		<step title="DOC_manage.Page1.Variable (T_content)">
+			<info>DOC_manage.Page1.Variable (T_content) : 41 lines</info>
+		</step>
+		<step title="DOC_manage.Page1.Bouton1 ()">
+			<info>DOC_manage.Page1.Bouton1 () : 10 lines</info>
+		</step>
+		<step title="DOC_manage.Page1.Bouton2 ()">
+			<info>DOC_manage.Page1.Bouton2 () : 9 lines</info>
+		</step>
+		<step title="DOC_manage.Page1.Bouton4 ()">
+			<info>DOC_manage.Page1.Bouton4 () : 10 lines</info>
+		</step>
+		<step title="DOC_manage.Page1.Bouton9 ()">
+			<info>DOC_manage.Page1.Bouton9 () : 5 lines</info>
+		</step>
+		<step title="DOC_manage.Page2.List Box1">
+			<info>DOC_manage.Page2.List Box1 : 54 lines</info>
+		</step>
+		<step title="DOC_manage.Page2.SearchPicker">
+			<info>DOC_manage.Page2.SearchPicker : 32 lines</info>
+		</step>
+		<step title="DOC_manage.Page2.Bouton8 ()">
+			<info>DOC_manage.Page2.Bouton8 () : 5 lines</info>
+		</step>
+		<step title="DOC_manage.Page3.Bouton6 ()">
+			<info>DOC_manage.Page3.Bouton6 () : 4 lines</info>
+		</step>
+		<step title="DOC_manage.Page3.Bouton7 ()">
+			<info>DOC_manage.Page3.Bouton7 () : 4 lines</info>
+		</step>
+		<step title="DOC_manage.Page3.Variable3 (T_index)">
+			<info>DOC_manage.Page3.Variable3 (T_index) : 6 lines</info>
+		</step>
+		<step title="DOC_manage.Page3.Variable4 (T_encoding)">
+			<info>DOC_manage.Page3.Variable4 (T_encoding) : 5 lines</info>
+		</step>
+		<step title="DOC_manage.Page4.List Box2">
+			<info>DOC_manage.Page4.List Box2 : 27 lines</info>
+		</step>
+		<step title="DOC_manage.Page4.Variable2 (T_template)">
+			<info>DOC_manage.Page4.Variable2 (T_template) : 9 lines</info>
+		</step>
+	</step>
+	<step title="(Formulaire1)">
+		<step title="(Formulaire1).Page1.Bouton (Bouton)">
+			<info>(Formulaire1).Page1.Bouton (Bouton) : 14 lines</info>
+		</step>
+		<step title="(Formulaire1).Page1.Bouton1 (Bouton)">
+			<info>(Formulaire1).Page1.Bouton1 (Bouton) : 8 lines</info>
+		</step>
+	</step>
+	<step title="DOC_selectSubject">
+		<step title="DOC_selectSubject">
+			<info>DOC_selectSubject : 17 lines</info>
+		</step>
+	</step>
+	<info>3 project forms</info>
+</step>
+<step title="Vérification des formulaires table">
+	<info>0 table forms</info>
+</step>
+<step title="Vérification des formulaires orphelins">
+</step>
+<step title="Vérification de l&apos;information utilisateurs et groupes">
+</step>
+<step title="Vérification des Infobulles">
+</step>
+<step title="Vérification des dossiers de l&apos;explorateur">
+	<step title="Corbeille">
+	</step>
+	<step title="Dossier par défaut">
+	</step>
+	<step title="Tables par défaut">
+	</step>
+	<step title="Formulaires par défaut">
+	</step>
+	<step title="Méthodes projet par défaut">
+	</step>
+</step>
+<step title="Vérification des barres de menus et des menus">
+</step>
+<step title="Check Lists">
+</step>
+<step title="Vérification des méthodes orphelines">
+</step>
+<stop_timer time="2016-08-08T14:45:00+02:00" success="true" user_canceled="false"/>
+</verifylog>

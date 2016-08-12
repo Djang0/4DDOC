@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<verifylog operation="Compact" name="4DDOC" structure="Macintosh HD:Users:Ludovicreenaers:Documents:scripts:4DDOC:4DDOC.4dbase:4DDOC.4DB" data="" os="Mac OS X (10.11.5)">
+<start_timer time="2016-08-08T14:44:54+02:00"/>
+<step title="Ouverture de la base en mode maintenance">
+</step>
+<step title="Compactage">
+	<step title="Compactage des définitions de la numérotation automatique">
+	</step>
+	<step title="Chargement des tables de données">
+		<step title="Compactage des entêtes de la table des données">
+		</step>
+	</step>
+	<step title="Compactage des BLOBs dans la table Resources">
+	</step>
+	<step title="Compactage des enregistrements dans la table Resources">
+		<step title="Vérification de la liste des enregistrements supprimés dans la table Resources">
+		</step>
+	</step>
+	<step title="Compactage des BLOBs dans la table [Table#0]">
+	</step>
+	<step title="Compactage des enregistrements dans la table [Table#0]">
+		<step title="Vérification de la liste des enregistrements supprimés dans la table [Table#0]">
+		</step>
+	</step>
+	<step title="Compactage des définitions d’index">
+		<step title="Compactage de l&apos;index sur Index B-tree 0 sur kind (TYPE only)">
+			<step title="Compactage des adresses des pages d’index de l&apos;Index B-tree 0 sur kind (TYPE only)">
+			</step>
+			<step title="Compactage des pages d’index de l&apos;Index B-tree 0 sur kind (TYPE only)">
+			</step>
+		</step>
+		<step title="Compactage de l&apos;index sur Index B-tree 1 sur stamp (stamp)">
+			<step title="Compactage des adresses des pages d’index de l&apos;Index B-tree 1 sur stamp (stamp)">
+			</step>
+			<step title="Compactage des pages d’index de l&apos;Index B-tree 1 sur stamp (stamp)">
+			</step>
+		</step>
+		<step title="Compactage de l&apos;index sur Index B-tree 2 sur kind , id (TYPE and ID)">
+			<step title="Compactage des adresses des pages d’index de l&apos;Index B-tree 2 sur kind , id (TYPE and ID)">
+			</step>
+			<step title="Compactage des pages d’index de l&apos;Index B-tree 2 sur kind , id (TYPE and ID)">
+			</step>
+		</step>
+	</step>
+	<step title="Compactage des définitions de tables des données">
+	</step>
+	<step title="Compactage des définitions d’index de sauvegarde">
+	</step>
+	<step title="Déplacement de l&apos;original">
+<move from="Macintosh HD:Users:Ludovicreenaers:Documents:scripts:4DDOC:4DDOC.4dbase:4DDOC.4DB" to="Macintosh HD:Users:Ludovicreenaers:Documents:scripts:4DDOC:4DDOC.4dbase:Replaced Files (Compacting) 2016-08-08 14-44-54:4DDOC.4DB">
+</move>	</step>
+	<step title="Déplacement du nouveau fichier vers son emplacement d&apos;origine">
+<move from="Macintosh HD:Users:Ludovicreenaers:Documents:scripts:4DDOC:4DDOC.4dbase:Replaced Files (Compacting) 2016-08-08 14-44-54:_4DDOC_compacted.4DB" to="Macintosh HD:Users:Ludovicreenaers:Documents:scripts:4DDOC:4DDOC.4dbase:4DDOC.4DB">
+</move>	</step>
+	<step title="Déplacement du fichier d&apos;index d&apos;origine">
+<move from="Macintosh HD:Users:Ludovicreenaers:Documents:scripts:4DDOC:4DDOC.4dbase:4DDOC.4DIndy" to="Macintosh HD:Users:Ludovicreenaers:Documents:scripts:4DDOC:4DDOC.4dbase:Replaced Files (Compacting) 2016-08-08 14-44-54:4DDOC.4DIndy">
+</move>	</step>
+	<step title="Déplacement du nouvel index vers son emplacement d&apos;origine">
+<move from="Macintosh HD:Users:Ludovicreenaers:Documents:scripts:4DDOC:4DDOC.4dbase:Replaced Files (Compacting) 2016-08-08 14-44-54:_4DDOC_compacted.4DIndy" to="Macintosh HD:Users:Ludovicreenaers:Documents:scripts:4DDOC:4DDOC.4dbase:4DDOC.4DIndy">
+</move>	</step>
+</step>
+<stop_timer time="2016-08-08T14:44:54+02:00" success="true" user_canceled="false"/>
+</verifylog>
